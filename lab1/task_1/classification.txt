@@ -1,0 +1,16 @@
+I zbiór danych:
+
+Imię i nazwisko - Grupa: Ogólne
+ID Pracownika - Grupa: Wewnętrzne
+Dane biometryczne np. odcisk palca - Grupa: Poufne
+Numer karty debetowej - Grupa: Poufne
+
+II zbiór danych:
+
+Imię i nazwisko - Grupa: Ogólne
+Nazwa stanowiska - Grupa: Wewnętrzne
+Zawód - Grupa: Inne niż biznesowe
+Historia choroby - Grupa: Poufne
+
+tomasz bozek 83030 github link:
+- https://github.com/tomaszbozek/wsb-seasson5-ztid
