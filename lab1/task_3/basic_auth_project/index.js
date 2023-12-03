@@ -15,6 +15,7 @@ function authentication(req, res, next) {
         return next(err)
     }
 
+    // get user & password stored as header and encoded (not safely) in base64 format
     var auth = new Buffer.from(authheader.split(' ')[1], 'base64').toString().split(':');
     var user = auth[0];
     var pass = auth[1];
@@ -37,5 +38,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Server setup
 app.listen((4000), () => {
+    // Server is up & running & listening on port 4000
     console.log("Server is Running very well");
 })
